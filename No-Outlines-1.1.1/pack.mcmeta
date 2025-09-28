@@ -1,0 +1,30 @@
+{
+    "pack": {
+        "pack_format": 42,
+        "supported_formats": [1, 500],
+        "min_format": 1,
+        "max_format": 500,
+        "description": [
+            {
+                "translate": "bizcub.no_outlines.description",
+                "fallback": "Removes all outlines"
+            },
+            "\n",
+            {
+                "translate": "bizcub.by_bizcub",
+                "fallback": "by BizCub",
+                "color": "green"
+            }
+        ]
+    },
+    "overlays": {
+        "entries": [
+            {
+                "directory": "1.21.6-rp",
+                "formats": [63, 500],
+                "min_format": 63,
+                "max_format": 500
+            }
+        ]
+    }
+}
